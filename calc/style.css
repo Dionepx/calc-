@@ -1,0 +1,72 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ html,body {
+     height: 100%;
+ }
+ 
+ form {
+     position: absolute;
+     left: 460px;
+     top: 200px;
+     width: 900px;
+     height: 650px;
+     background-color: white;
+ }
+ 
+ h1 {
+     margin-left: 290px;
+     margin-top: 20px;
+ }
+ 
+ h2 {
+     margin-left: 350px;
+ }
+ p {
+     margin-left: 430px;
+ }
+ 
+ form input[type=text] {
+     position: absolute;
+     left: 270px;
+     padding: 20px;
+     width: 350px;
+ }
+ 
+ /*alinhamento vertical dos campos*/
+ 
+ .nome {
+     position: absolute;
+     top: 130px;
+ }
+ 
+ .email {
+     position: absolute;
+     top: 210px;
+ }
+ 
+ .telefone { 
+     position: absolute;
+          top: calc(210px + (210px - 130px)); 
+ }
+ 
+ .button {
+     margin-top: 400px;
+     margin-left: 320px;
+     width: 500px;
+     
+ }
+ 
+ .button input[type=submit] {
+     width: 250px;
+     height: 70px;
+     font-size: 25px;
+     background-color: #0080b4;
+     color: white;
+     border: 0;
+     cursor: pointer;
+     
+ }
